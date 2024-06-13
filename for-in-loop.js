@@ -33,3 +33,32 @@ for (const key in myObject) {
 // for(const key in map){
 //   console.log(key);
 // }
+
+
+//filter
+
+const myNum =[1,2,3,4,5,6,7,8,9,10]
+const newNum = myNum.filter((num)=> num >4)
+console.log(newNum)
+// In a filter we can filter any value according our condation 
+
+// but we are got one type of problem
+// const newNums=myNum.filter( (num) =>{
+//  num>4
+// }) this is not write way because we already know any time we weite a function 
+const myNums =[1,2,3,4,5,6,7,8,9,11,34,21]
+const newNums = myNum.filter((num)=> {
+  return num >4
+})
+console.log(newNums);
+
+// this is other way  <iam int sure>
+// const nuwNum =[]
+// myNums.forEach(( num)=>{
+//   if(num>4){
+//     newNums.push(num)
+//   }
+// })
+// console.log(nuwNum)
+
+// const userBooks=books.filter((bk)=>bk.genre =='Hostory')//this is the way hoe to ecess the values in database
