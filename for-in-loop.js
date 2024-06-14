@@ -10,7 +10,7 @@ const myObject ={
 for (const key in myObject){
   console.log(key)//it is used for keys
 }
-// and this is the way how to get the objects
+// and this is the way how to get the objects values
 for (const key in myObject) {
   console.log(`${key} shortcut is for ${myObject[key]}`)       
     }
@@ -21,7 +21,7 @@ for (const key in myObject) {
     for(const key in programing){
         console.log(key);
     }
-//it provide key not a value
+//it provide key not a value its provide keys
 
 // con we do this with the help of for in loop
 // const map =new Map()

@@ -1,5 +1,5 @@
 const coding=9['java','python','node-js','c++']
-coding.forEach(function name(item){
+coding.forEach(function name(val){
     console.log(val);
 } )//basic
 
