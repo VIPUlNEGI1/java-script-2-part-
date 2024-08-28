@@ -7,7 +7,7 @@ console.log(a)
 if(true){
     // in a {}we are called block scope
     let a = 10
-    const b=20
+    const b = 20
     c=300
     console.log(a)
 }
@@ -44,7 +44,7 @@ function one(){
 
     function tow(){
         const website = "git hub"
-        console.log(username)
+        console.log(username);
     }
 tow()
 }
@@ -55,9 +55,20 @@ if(true){
     const username ="vipul"
     if(username==="vipul"){
         const website ="git-hub"
-        console.log(username+website)
+        console.log(username + website)
     }
     // console.log(website)
 }
 // console.log(username)
 
+function addone (){
+    return num + 1
+}
+addone(5)
+
+
+// there is a differencte  
+const addto =function(num){
+    return num +2
+}
+addto(5)
