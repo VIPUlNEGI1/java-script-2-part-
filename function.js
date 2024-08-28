@@ -7,12 +7,12 @@ function vipulnegi(){
     console.log("L")
 }
 // this is very simple
+// vipulnegi() 
 
-//vipulnegi() 
 
-// function addNumbers(number1,number2){
-//     console.log(number1+number2)
-// }
+function addNumbers(number1,number2){
+    console.log(number1 + number2)
+}
 addNumbers(3,4)
 
 
