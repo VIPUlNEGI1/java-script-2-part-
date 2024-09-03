@@ -1,7 +1,8 @@
-// Immediately invoked function expresstion
-//  this type of function is execute immediately
-//and this is help to save child funcation to globle funcation in simple word iife is used to help avoide globle scope varable polutation
 
+
+// why are we used iffi ===> because some time we want imadate execute the function and 
+//  secound 
+//  reasion is we dont want to intrupt the globle variable (dont want a polution in globle scope) in our function
 (
     //this is name iife because it have name
     function vipul(){
@@ -18,4 +19,14 @@
         //how too used iife in arrow function
 
     }
-)('vipul')
+)('vipul');
+
+
+
+//  the syntex in iffi
+(()=>{
+    console.log('mostly we used this function in database')
+})();
+
+
+// most important thing  is this ; used in spacial time we want write tow iffi in a code .
