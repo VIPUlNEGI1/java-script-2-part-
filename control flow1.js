@@ -1,3 +1,8 @@
+//this switch case are used to check multiple switchwation
+
+
+// switchcase syntex
+
 // switch
 // switch(key){
 //     case value:
@@ -9,6 +14,8 @@
 //             break;
 
 // } basic syntex of switch
+
+
 
 const month = 3
 switch(month){
@@ -39,7 +46,7 @@ switch(month){
 }
 
 
-const month1 ="march"
+const month1 = "march"
 switch(month1){
     case "january":
         console.log("january")

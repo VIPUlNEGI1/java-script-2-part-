@@ -14,10 +14,13 @@ if(userEmaail){
 }
 
 // how to check value is empty
+
+// how to check the array
 console.log("array is empty")
     if(userEmaail.length===0){
 }
 
+// how the check the object
 const emptyobj ={}
 if(Object.keys(emptyobj).length===0){
 console.log("Object is empty");
