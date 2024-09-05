@@ -8,7 +8,7 @@ while(index <= 10){
 
 let myArray=['flash','batman','superman']
 
-let arr =0
+let arr = 0
 while(arr<myArray.length){
     console.log(`value is ${myArray[arr]}`)
     arr=arr+1
@@ -33,3 +33,4 @@ do{
       console.log(`score is${vipul1}`)
       vipul1++
     }while(vipul1 <=10)
+// this  do-while loop was check syntex first then this is check the condation secound
