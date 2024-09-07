@@ -1,7 +1,10 @@
-const coding=9['java','python','node-js','c++']
+
+const coding=['java','python','node-js','c++']
 coding.forEach(function name(val){
     console.log(val);
 } )//basic
+// how to write th value in for-each
+
 
 // how to used arrow funcation in for-each-loop
 coding.forEach(( item)=>{
@@ -35,6 +38,6 @@ const mycoding=[
     }
 ]
 mycoding.forEach((item)=>{
-    // how to exces values
+    // how to exces values whith the help of for loop
     console.log(item.languageName);
 })

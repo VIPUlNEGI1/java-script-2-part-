@@ -20,6 +20,7 @@ for (const key in myObject) {
     const programing =['js','rb','py','java','cpp']
     for(const key in programing){
         console.log(key);
+        console.log(programing[key])
     }
 //it provide key not a value its provide keys
 
