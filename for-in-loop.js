@@ -24,7 +24,7 @@ for (const key in myObject) {
     }
 //it provide key not a value its provide keys
 
-// con we do this with the help of for in loop
+// can we do this with the help of for in loop
 // const map =new Map()
 // map.set('IN','India')
 // map.set('USA', 'United state of Amrica')
@@ -37,19 +37,23 @@ for (const key in myObject) {
 
 
 //filter
-
 const myNum =[1,2,3,4,5,6,7,8,9,10]
-const newNum = myNum.filter((num)=> num >4)
+// in this filetr we are give the condation like ex (num >4) jo isko setisifie karaga vo execuate hoga
+const newNum = myNum.filter((num)=> num > 4)
 console.log(newNum)
 // In a filter we can filter any value according our condation 
 
 // but we are got one type of problem
 // const newNums=myNum.filter( (num) =>{
 //  num>4
+
+
+
 // }) this is not write way because we already know any time we weite a function 
 const myNums =[1,2,3,4,5,6,7,8,9,11,34,21]
 const newNums = myNum.filter((num)=> {
-  return num >4
+  return num > 4
+  // in this filter function we always write the return keyword
 })
 console.log(newNums);
 

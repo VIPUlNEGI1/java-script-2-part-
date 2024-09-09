@@ -1,6 +1,6 @@
 
-
-let index =0
+// while loop
+let index = 0
 while(index <= 10){
     console.log(`Value of index is ${index}`);
     index = index + 2
@@ -14,6 +14,7 @@ while(arr<myArray.length){
     arr=arr+1
 }
 
+// do-while loop
 
 // in do-while loop make sure the condation was check in last of the process it check first our syntex then it check condation 
 // do{

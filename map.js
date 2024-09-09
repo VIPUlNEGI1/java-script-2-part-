@@ -9,6 +9,7 @@ console.log(newNums)
 const mynumber1=[21,3,5,54,7,8,9,5,3]
 // const newNums1 =mynumber.map((num)=> {return num +10})
 
+// what is chaining in map
 // this is example of chaining in chaining we are used so many funcations 
 const newNums1 = mynumber
                        .map((num)=> num*10)
