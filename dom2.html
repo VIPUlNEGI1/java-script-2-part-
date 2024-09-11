@@ -1,0 +1,39 @@
+<!-- in this file we learn how the create element and then mainapulate and add the main body   -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // how to create element
+   const div=document.createElement('div')
+   console.log(div)
+//    how to add claass
+div.className = "main"
+// div.id = "myID"
+
+// ramdom id
+div.id=Math.round( Math.random() *10 +1)
+// how to set attrubutes
+div.setAttribute('title',"vipul negi")
+    div.style.backgroundColor ='red'
+    div.style.margin = "12rem"
+// this is the way whose not optimzed 
+    // div.innerText = "vipul is a secuss full person"
+
+    // this is optimzed way
+    const addText=document.createTextNode("vipul is a secussful person")
+    // this is the way to add text in optimzed way
+    div.appendChild(addText)
+    
+
+    // then finally we are addd the  div element in our body with the help of appendChild
+    document.body.appendChild(div)
+    </script>
+</body>
+</html>

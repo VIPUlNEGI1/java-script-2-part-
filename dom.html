@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        body{
+            background: #000;
+            color: aliceblue;
+            font-size: 4rem;
+        }
+    </style>
+</head>
+<body>
+ <div class="parent">
+     <div class="dav">sunday</div>
+     <div class="dav">monday</div>
+    <div class="dav">tuesday</div>
+    <div class="dav">wednusday</div>
+ </div>
+ <script>
+    const prent = document.querySelector('.parent')
+   for (let i = 0; i < prent.children.length; i++) {
+ console.log(prent.children[i].innerHTML);
+    
+   } 
+   prent.children[0].style.color='orange'
+
+const dayONe = document.querySelector('.dav')
+// console.log(dayONe)
+// console.log(dayONe.parentElement)
+// console.log(dayONe.nextElementSibling)
+
+// this is nodes topic is so importamt because it is count all step in bhind the seans
+console.log('NODES',prent.childNodes)
+ </script>
+</body>
+</html>
